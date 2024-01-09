@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap);
+
+body {
+    background: rgba(18, 18, 209, 0.863);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+section {
+    font: 20, Arial, blue;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    align-items: center;
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-style: italic;
+}
+
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+button {
+    color: rgb(74, 3, 240);
+    text-align: center;
+    font-style: italic;
+    margin: auto;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 20px;
+    width: 600px;
+    background: transparent;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+.relogio div{
+    height: 20px;
+    width: 600px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+    color: #070101;
+    letter-spacing: 1px;
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.relogio span.tempo {
+    font-size: 15px;
+}
