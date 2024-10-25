@@ -6,7 +6,7 @@ function carregar() {
     let hora = data.getHours()
     
     dayName = new Array ("Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado")
-    monName = new Array ("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Agosto", "Outubro", "Novembro", "Dezembro")
+    monName = new Array ("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro")
     msg.innerHTML = `<p><b>Hoje é ${dayName[data.getDay()]}, dia ${data.getDate()} de ${monName[data.getMonth()]} de ${data.getFullYear()}</b></p>`
    
     if (hora >= 6 && hora < 12){
